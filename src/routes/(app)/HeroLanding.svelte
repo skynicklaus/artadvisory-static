@@ -76,7 +76,7 @@
 			<div class="relative mt-14 hidden w-full overflow-hidden sm:flex sm:px-8 lg:mt-0">
 				<Carousel {images} />
 			</div>
-			<div class="relative overflow-x-hidden sm:hidden">
+			<div class="relative overflow-hidden sm:hidden">
 				<CarouselSmall {images} />
 			</div>
 		</div>
