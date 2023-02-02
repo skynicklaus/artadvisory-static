@@ -41,7 +41,7 @@
 					<a href="/about/terms-of-use">Terms Of Use</a>
 				</li>
 				<li class="pt-4">
-					<a href="#faq">FAQ</a>
+					<a href="/">FAQ</a>
 				</li>
 				<li class="pt-4">
 					<a href="/about/privacy">Privacy Policy</a>
@@ -62,16 +62,16 @@
 				<p>FOLLOW US</p>
 			</div>
 			<div class="-mt-3 flex items-center gap-4">
-				<a href="#facebook">
+				<a href="/">
 					<iconify-icon icon="carbon:logo-facebook" width="26" />
 				</a>
-				<a href="#twitter">
+				<a href="/">
 					<iconify-icon icon="carbon:logo-twitter" width="26" />
 				</a>
-				<a href="#instagram">
+				<a href="/">
 					<iconify-icon icon="carbon:logo-instagram" width="26" />
 				</a>
-				<a href="#linkedin">
+				<a href="/">
 					<iconify-icon icon="carbon:logo-linkedin" width="26" />
 				</a>
 			</div>

@@ -17,7 +17,7 @@
 		class="mt-11 flex overflow-x-scroll md:grid md:grid-cols-3 md:gap-5 md:overflow-auto 2xl:grid-cols-6"
 	>
 		{#each paintings as { name, artist, imagePath, duration, returns }}
-			<a class="mt-4 flex justify-center" href="#a">
+			<a class="mt-4 flex justify-center" href="/">
 				<HeroCard {imagePath} {artist} {name} {returns} />
 			</a>
 		{/each}
