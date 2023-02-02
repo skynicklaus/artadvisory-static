@@ -17,9 +17,7 @@
 		class:current={index === currentIndex}
 		class:previous={index === previousIndex}
 	>
-		<div class="h-auto w-full p-2">
-			<img class="h-full" src={imagePath} alt={name} />
-		</div>
+		<img src={imagePath} alt={name} />
 	</div>
 {/each}
 
