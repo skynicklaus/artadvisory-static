@@ -35,7 +35,7 @@
 			</div>
 		</div>
 	</div>
-	<form action="https://formsubmit.co/support@artadvisory.art" method="POST">
+	<form action="https://formsubmit.co/el/hewoka" method="POST">
 		<div class="grid grid-cols-1 gap-5 pt-20 lg:grid-cols-2 lg:gap-32">
 			<div class="flex flex-col gap-5">
 				<div class="">
