@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .burger-menu {
+    @apply bg-gray-50 rounded-md;
+    height: 3px;
+  }
+}
+
+.flex-half {
+  flex: 0 0 50%;
+}
+
+.aspect-43 {
+  aspect-ratio: 4/3;
+}
+
+.font-spartan {
+  font-family: 'League Spartan';
+}
