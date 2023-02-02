@@ -11,20 +11,20 @@
 	let images: { imagePath: string; name: string }[] = [
 		{
 			imagePath: AceMotion,
-			name: 'AceMotion',
+			name: 'AceMotion'
 		},
 		{
 			imagePath: Pena,
-			name: 'Pena',
+			name: 'Pena'
 		},
 		{
 			imagePath: ColourfulParty,
-			name: 'ColourfulParty',
+			name: 'ColourfulParty'
 		},
 		{
 			imagePath: TheDream,
-			name: 'TheDream',
-		},
+			name: 'TheDream'
+		}
 	];
 </script>
 

@@ -13,7 +13,7 @@
 
 {#each images as { imagePath, name }, index}
 	<div
-		class="item-slide"
+		class="item-slide object-cover"
 		class:current={index === currentIndex}
 		class:previous={index === previousIndex}
 	>
