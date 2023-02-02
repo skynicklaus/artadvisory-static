@@ -13,11 +13,13 @@
 
 {#each images as { imagePath, name }, index}
 	<div
-		class="item-slide object-cover"
+		class="item-slide"
 		class:current={index === currentIndex}
 		class:previous={index === previousIndex}
 	>
-		<img class="h-full" src={imagePath} alt={name} />
+		<div class="h-auto w-full p-2">
+			<img class="h-full" src={imagePath} alt={name} />
+		</div>
 	</div>
 {/each}
 
