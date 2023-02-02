@@ -35,7 +35,7 @@
 			</div>
 		</div>
 	</div>
-	<form>
+	<form action="https://formsubmit.co/support@artadvisory.art" method="POST">
 		<div class="grid grid-cols-1 gap-5 pt-20 lg:grid-cols-2 lg:gap-32">
 			<div class="flex flex-col gap-5">
 				<div class="">
@@ -74,6 +74,7 @@
 					<p class="text-sm text-gray-50 lg:text-lg">Message</p>
 					<textarea
 						class="h-48 w-full resize-none rounded-lg bg-transparent py-2 px-3 text-gray-50 outline outline-1 outline-gray-50/30 focus:outline-custom-primary-1 lg:h-full lg:py-4"
+						name="message"
 					/>
 				</label>
 			</div>
@@ -81,7 +82,7 @@
 		<div class="mt-8 flex items-center justify-center lg:mt-12">
 			<button
 				class="font-spartan rounded bg-gradient-to-br from-custom-primary-1 to-custom-primary-2 py-4 px-8 lg:px-12"
-				>Send Message</button
+				type="submit">Send Message</button
 			>
 		</div>
 	</form>
