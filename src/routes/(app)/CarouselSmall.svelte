@@ -17,7 +17,7 @@
 		class:current={index === currentIndex}
 		class:previous={index === previousIndex}
 	>
-		<img class="h-full ios-stretch-fix" src={imagePath} alt={name} />
+		<img class="h-full" src={imagePath} alt={name} />
 	</div>
 {/each}
 
@@ -41,9 +41,5 @@
 		opacity: 1;
 
 		margin: 0 auto;
-	}
-
-	.ios-stretch-fix {
-		height: intrinsic;
 	}
 </style>
