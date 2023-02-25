@@ -290,7 +290,7 @@
 				to any marketing or promotional materials.
 			</p>
 			<p class="mt-3">
-				<b>How to Contact Us regarding Electronic Disclosures.</b> You can contact us via email at support@artadvisory.
+				<b>How to Contact Us regarding Electronic Disclosures.</b> You can contact us via email at support@artadvisory.art.
 				You may also reach us in writing to us at the following address: Art Advisory Sdn Bhd, 88, Jalan
 				Khaw Sim Bee, Georgetown, 10400, Pulau Pinang, Malaysia. Attention: Investor Relations.
 			</p>

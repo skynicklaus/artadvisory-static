@@ -12,29 +12,29 @@
 			alt: 'Artist',
 			title: 'We Find Iconic Artist',
 			description:
-				'We determine which artist markets are expanding swiftly and have the most alluring rates.',
+				'We determine which artist markets are expanding swiftly and have the most alluring rates.'
 		},
 		{
 			imagePath: PaintingIcon,
 			alt: 'Painting',
 			title: 'We Purchase The Art',
 			description:
-				'We review thousands of examples of paintings and buy less than 5% of what we’re offered',
+				'We review thousands of examples of paintings and buy less than 5% of what we’re offered'
 		},
 		{
 			imagePath: SecurityIcon,
 			alt: 'Securitizing Artworks',
 			title: 'We Fractionalise The Artwork',
 			description:
-				'We split the paintings into multiple units in order for the painting to be investable for everyone.',
+				'We split the paintings into multiple units in order for the painting to be investable for everyone.'
 		},
 		{
 			imagePath: MoneyIcon,
 			alt: 'Receive Money',
 			title: 'Receive Dividends',
 			description:
-				'Receive monthly dividends and wait to receive additional dividends upon the sale of the painting.',
-		},
+				'Receive monthly dividends and wait to receive additional dividends upon the sale of the painting.'
+		}
 	];
 </script>
 
@@ -44,9 +44,9 @@
 	</div>
 	<div class="mt-3 text-sm text-gray-50 lg:w-4/6 lg:text-base">
 		<p>
-			Artadvisory is the first platform for buying and selling shares representing an investment in
-			iconic artworks. Build a diversified portfolio of expertly-vetted works curated by our
-			industry-leading research team.
+			Artadvisory is the only platform in Malaysia for buying and selling shares representing an
+			investment in iconic artworks. Build a diversified portfolio of expertly-vetted works curated
+			by our industry-leading research team.
 		</p>
 	</div>
 	<div class="scroll flex w-full flex-row gap-6 overflow-x-scroll py-5 xl:mt-8">

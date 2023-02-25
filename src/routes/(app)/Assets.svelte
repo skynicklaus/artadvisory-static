@@ -10,23 +10,23 @@
 		{
 			imagePath: ArtIcon,
 			title: 'Fine Art',
-			returns: '13.8',
+			returns: '25.2%'
 		},
 		{
 			imagePath: BursaIcon,
 			title: 'Bursa',
-			returns: '3.9',
+			returns: '3.9'
 		},
 		{
 			imagePath: RealEstateIcon,
 			title: 'Real Estates',
-			returns: '8.9',
+			returns: '8.9'
 		},
 		{
 			imagePath: GoldIcon,
 			title: 'Gold',
-			returns: '7.2',
-		},
+			returns: '7.2'
+		}
 	];
 </script>
 
