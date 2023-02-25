@@ -1,29 +1,59 @@
 <script lang="ts">
 	import Star from '$lib/components/Star.svelte';
 	import Button from '$lib/components/Button.svelte';
-	import AceMotion from '$lib/images/AceMotion.png';
-	import Pena from '$lib/images/Pena.png';
-	import ColourfulParty from '$lib/images/ColourfulParty.png';
-	import TheDream from '$lib/images/TheDream.png';
+	import Painting1 from '$lib/images/Painting1.png';
+	import Painting2 from '$lib/images/Painting2.png';
+	import Painting3 from '$lib/images/Painting3.png';
+	import Painting4 from '$lib/images/Painting4.png';
+	import Painting5 from '$lib/images/Painting5.png';
+	import Painting6 from '$lib/images/Painting6.png';
+	import Painting7 from '$lib/images/Painting7.png';
+	import Painting8 from '$lib/images/Painting8.png';
+	import Painting9 from '$lib/images/Painting9.png';
+	import Painting10 from '$lib/images/Painting10.png';
 	import Carousel from './Carousel.svelte';
 	import CarouselSmall from './CarouselSmall.svelte';
 
 	let images: { imagePath: string; name: string }[] = [
 		{
-			imagePath: AceMotion,
-			name: 'AceMotion'
+			imagePath: Painting1,
+			name: 'Fine Art Painting'
 		},
 		{
-			imagePath: Pena,
-			name: 'Pena'
+			imagePath: Painting2,
+			name: 'HH Lim'
 		},
 		{
-			imagePath: ColourfulParty,
-			name: 'ColourfulParty'
+			imagePath: Painting3,
+			name: 'Contemporary Painting'
 		},
 		{
-			imagePath: TheDream,
-			name: 'TheDream'
+			imagePath: Painting4,
+			name: 'Malaysia Fine Art'
+		},
+		{
+			imagePath: Painting5,
+			name: 'Fine Art Painting'
+		},
+		{
+			imagePath: Painting6,
+			name: 'Fine Art Painting'
+		},
+		{
+			imagePath: Painting7,
+			name: 'Chinese Fine Art Painting'
+		},
+		{
+			imagePath: Painting8,
+			name: 'Fine Art Painting'
+		},
+		{
+			imagePath: Painting9,
+			name: 'Sculpture'
+		},
+		{
+			imagePath: Painting10,
+			name: 'Sculpture'
 		}
 	];
 </script>
@@ -41,7 +71,7 @@
 					<div class="w-4 xl:w-7">
 						<Star />
 					</div>
-					<p>Invest in mutlimillion-dollar paintings</p>
+					<p>Invest in highly-prized paintings</p>
 				</div>
 				<div class="flex items-center gap-2 pb-4 xl:text-base">
 					<div class="w-4 xl:w-7">

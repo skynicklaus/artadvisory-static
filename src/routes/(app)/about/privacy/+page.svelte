@@ -4,8 +4,8 @@
 		<p class="col-start-1 text-sm 2xl:pl-24">Dated: February 2023</p>
 		<div class="col-start-1 mt-4 2xl:pl-24">
 			<p>
-				<b>PLEASE READ THIS PRIVACY POLICY CAREFULLY.</b> Your privacy is very important to us.
-				Artadvisory Sdn Bhd, located at 88, Jalan Khaw Sim Bee, Georgetown, 10400, Pulau Pinang,
+				<b>PLEASE READ THIS PRIVACY POLICY CAREFULLY.</b> Your privacy is very important to us. Art
+				Advisory Sdn Bhd, located at 88, Jalan Khaw Sim Bee, Georgetown, 10400, Pulau Pinang,
 				Malaysia, is committed to maintaining your privacy. This privacy policy (the
 				<b>"Privacy Policy</b>" ) is intended to inform you of:
 			</p>
@@ -18,7 +18,7 @@
 			</ul>
 			<p class="mt-3">
 				This Privacy Policy applies to you whenever you access or use any domains or subdomains of
-				our website at <a class="text-blue-300" href="/">http://www.artadvisory.com</a> and our
+				our website at <a class="text-blue-300" href="/">http://www.artadvisory.art</a> and our
 				mobile application (the " <b>Platform</b>"), or when you access, use or download any
 				products, services, features, content, widgets, materials or other tools offered by
 				Artadvisory (collectively, " <b>Services</b>"). This Privacy Policy does not govern
@@ -413,7 +413,7 @@
 			<h3 class="mt-3 text-xl font-bold">Changing or Deleting Information:</h3>
 			<p class="mt-3">
 				All users may review, update, correct or delete the user's Personal Data that Artadvisory
-				has on file by contacting us at support@artadvisory.com or, in certain cases, by accessing
+				has on file by contacting us at support@artadvisory.art or, in certain cases, by accessing
 				your member account. If you request, we will take reasonable steps to remove your name and
 				other Personal Data from our databases. Please understand, however, that:
 			</p>

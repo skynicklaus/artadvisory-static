@@ -1,6 +1,6 @@
 <script lang="ts">
 	import AboutCard from './AboutCard.svelte';
-	import Gallery from '$lib/images/Gallery.jpg';
+	import Exhibition1 from '$lib/images/Exhibition1.jpeg';
 </script>
 
 <div class="container mx-auto px-4 pt-40 lg:px-12 lg:pt-52 lg:pb-10 xl:pt-52 2xl:pt-56">
@@ -13,8 +13,8 @@
 			</div>
 			<div class="text-gray-50 md:mx-auto md:w-1/2 md:text-center lg:mx-0 lg:w-auto lg:text-left">
 				<p>
-					Artadvisory is the only platform in Malaysia that lets you invest in multi-million dollar
-					fine art paintings.
+					Artadvisory is the only platform in Malaysia that lets you invest in renowned and highly
+					prized fine art paintings.
 				</p>
 			</div>
 			<div class="grid grid-cols-1 gap-6 md:place-items-center 2xl:mr-20">
@@ -29,7 +29,7 @@
 		</div>
 		<div class="hidden lg:block lg:w-full">
 			<div class="relative z-30 mx-auto lg:w-4/6">
-				<img class="rounded-top-left" src={Gallery} alt="Art Gallery" />
+				<img class="rounded-top-left" src={Exhibition1} alt="Art Gallery" />
 			</div>
 		</div>
 	</div>

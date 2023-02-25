@@ -1,5 +1,5 @@
 <script lang="ts">
-	import QiBaiShi from '$lib/images/QiBaiShi.webp';
+	import Exhibition2 from '$lib/images/Exhibition2.jpeg';
 </script>
 
 <div class="container mx-auto px-4 pt-20 pb-10 sm:pb-32 md:px-12 lg:px-12 lg:pt-28">
@@ -24,7 +24,7 @@
 				<div
 					class="relative before:absolute before:right-0 before:-mt-3 before:-mr-3 before:h-8 before:w-8 before:rounded-md before:bg-custom-primary-1/30 sm:before:-mt-7 sm:before:-mr-7 sm:before:h-16 sm:before:w-16 sm:after:absolute sm:after:bottom-0 sm:after:right-0 sm:after:-z-20 sm:after:-mr-5 sm:after:-mb-12 sm:after:h-20 sm:after:w-20 sm:after:rounded-full sm:after:bg-custom-primary-1/60"
 				>
-					<img class="aspect-43 rounded-md" src={QiBaiShi} alt="QiBaiShi" />
+					<img class="aspect-43 rounded-md" src={Exhibition2} alt="Fine Art Exhibition" />
 				</div>
 			</div>
 		</div>

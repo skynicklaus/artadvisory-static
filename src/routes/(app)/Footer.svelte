@@ -52,23 +52,26 @@
 			</ul>
 		</div>
 		<div class="w-full flex-grow px-8 text-sm text-gray-50 md:px-0 xl:text-base">
-			<div class="">
-				<p>Artadvisory.art, 88, Jalan Khaw Sim Bee, Georgetown, 10400, Pulau Pinang, Malaysia</p>
+			<div>
+				<p>Art Advisory Sdn. Bhd.</p>
 			</div>
-			<div class="">
+			<div>
+				<p>88, Jalan Khaw Sim Bee, Georgetown, 10400, Pulau Pinang, Malaysia</p>
+			</div>
+			<div>
 				<p>support@artadvisory.art</p>
 			</div>
 			<div class="mt-4 py-6 text-sm">
 				<p>FOLLOW US</p>
 			</div>
 			<div class="-mt-3 flex items-center gap-4">
-				<a href="/">
+				<a href="https://www.facebook.com/profile.php?id=100089821248930">
 					<iconify-icon icon="carbon:logo-facebook" width="26" />
 				</a>
 				<a href="/">
 					<iconify-icon icon="carbon:logo-twitter" width="26" />
 				</a>
-				<a href="/">
+				<a href="https://www.instagram.com/artadvisory.art/">
 					<iconify-icon icon="carbon:logo-instagram" width="26" />
 				</a>
 				<a href="/">

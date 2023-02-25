@@ -9,8 +9,8 @@
 		</div>
 		<div class="text-gray-50 md:mx-auto md:text-center">
 			<p class="md:mx-auto md:w-5/6">
-				We are a team of curators introducting revolutionary Fine Arts investment avenue to
-				diversify your portfolio.
+				We are a team of curators introducing revolutionary fine art investment avenue to diversify
+				your portfolio.
 			</p>
 			<p class="mt-3 md:mx-auto md:w-5/6">
 				With experience of over 40 years in the field of fine art, we pride ourselves in bringing a
