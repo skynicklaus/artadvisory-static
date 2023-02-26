@@ -46,8 +46,8 @@
 			</InvestCard>
 			<InvestCard title="Internationally Recognized">
 				<p>
-					Art is like a modern currency which once value is created, people can consume it, curate
-					it, use it, buy it, and trade it.
+					Art is similar to modern currency in that once value is created, people can appreciate,
+					curate, use, buy, and trade it.
 				</p>
 			</InvestCard>
 		</div>

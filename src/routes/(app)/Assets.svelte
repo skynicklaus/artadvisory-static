@@ -10,7 +10,7 @@
 		{
 			imagePath: ArtIcon,
 			title: 'Fine Art',
-			returns: '25.2%'
+			returns: '25.2'
 		},
 		{
 			imagePath: BursaIcon,
