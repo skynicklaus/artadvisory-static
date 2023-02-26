@@ -10,9 +10,9 @@
 	<div class="rounded-md bg-white/10 py-6 px-4 shadow-md md:py-8 md:px-8">
 		<InvestCard title="Fine Art Investment" flex={y > 728 ? true : false}>
 			<p>
-				Fine art is one of the most stable assets in the world right now. But due to the high entry
-				barrier, only the top 1% has the capability to participate in this market. We will lower the
-				entry barrier so that everyone can reap the benefits of this incredible asset.
+				Fine art is currently one of the most secure assets in the world. However, due to the high
+				entry barrier, only the top 1% of the population is able to participate in this market. We
+				will lower the barriers of entry to allow everyone to gain from this magnificent asset.
 			</p>
 		</InvestCard>
 		<div class="pt-12 md:flex md:justify-between md:py-6 lg:py-10 xl:py-14">

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Button from '$lib/components/Button.svelte';
-	import HowItWork1 from '$lib/images/HowItWork1.jpg';
+	import Exhibition3 from '$lib/images/Exhibition3.png';
 </script>
 
 <div class="container mx-auto px-4 pt-40 lg:px-12 lg:pt-52 lg:pb-10 xl:pt-52 2xl:pt-56">
@@ -15,9 +15,9 @@
 				class="flex flex-col gap-3 text-gray-50 sm:mx-auto sm:w-2/3 sm:text-center lg:w-auto lg:text-left"
 			>
 				<p>
-					Artadvisory is the first platform for buying and selling equities that represent a stake
-					in famous works of art. Create a broad collection of enduring works of art with the help
-					of our top-notch research staff.
+					Artadvisory is the marketplace for acquiring and transferring of securities that represent
+					a stake in well-known works of art. Create a broad collection of enduring works of art
+					with the aid of our top-notch research staff.
 				</p>
 			</div>
 			<div
@@ -43,7 +43,7 @@
 			<div
 				class="relative z-20 mt-1 ml-1 before:absolute before:-z-10 before:-mt-3 before:-ml-3 before:h-full before:w-full before:rounded-md before:bg-black/30 sm:mt-20 sm:before:-mt-12 sm:before:-ml-12 md:mt-20 lg:mt-3 lg:before:-ml-16"
 			>
-				<img class="rounded-md" src={HowItWork1} alt="HowItWork1" />
+				<img class="rounded-md" src={Exhibition3} alt="HowItWork1" />
 			</div>
 		</div>
 	</div>
