@@ -3,6 +3,11 @@
 </script>
 
 <svelte:head>
+	<title>Artadvisory - Fine Art Investment Platform</title>
+	<meta
+		name="description"
+		content="Invest in highly prized and highly valuable fine art paintings"
+	/>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
 	<link
