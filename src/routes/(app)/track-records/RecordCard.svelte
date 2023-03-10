@@ -6,7 +6,7 @@
 
 <div class="rounded-md bg-white/10 shadow-md">
 	<div
-		class="relative w-full before:absolute before:inset-0 before:z-10 before:rounded-t-md before:backdrop-blur-sm"
+		class="relative w-full before:absolute before:inset-0 before:z-10 before:rounded-t-md before:backdrop-blur-xs"
 	>
 		<img class="relative h-52 w-full rounded-t-md object-cover" src={imagePath} alt={artist} />
 	</div>

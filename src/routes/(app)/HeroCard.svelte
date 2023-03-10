@@ -7,7 +7,7 @@
 
 <div class="w-half flex flex-col items-center">
 	<div
-		class="relative before:absolute before:inset-0 before:z-10 before:rounded-md before:backdrop-blur-sm"
+		class="relative before:absolute before:inset-0 before:z-10 before:rounded-md before:backdrop-blur-xs"
 	>
 		<img
 			class="-z-10 float-left h-24 w-24 rounded-md object-cover filter sm:h-32 sm:w-32"

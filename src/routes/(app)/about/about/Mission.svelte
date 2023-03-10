@@ -20,7 +20,7 @@
 			<div class="grid grid-cols-1 gap-6 md:place-items-center 2xl:mr-20">
 				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 					<AboutCard title="40+" description="Years Of Experience" />
-					<AboutCard title="50+" description="Painting Offered" />
+					<AboutCard title="100+" description="Painting Offered" />
 				</div>
 				<div class="">
 					<AboutCard title="2023" description="Launched" />

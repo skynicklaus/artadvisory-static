@@ -11,6 +11,9 @@ module.exports = {
 				'bg-primary-2': '#292728',
 				'custom-primary-1': '#DEB35B',
 				'custom-primary-2': '#C2A461'
+			},
+			backdropBlur: {
+				xs: '1px'
 			}
 		}
 	},
