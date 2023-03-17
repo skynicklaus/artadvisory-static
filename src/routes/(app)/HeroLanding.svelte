@@ -50,9 +50,7 @@
 				/>
 			</div>
 		</div>
-		<div
-			class="hidden overflow-hidden relative mt-14 w-full sm:grid sm:grid-cols-1 sm:px-8 lg:mt-0"
-		>
+		<div class="hidden overflow-hidden relative mt-14 w-full sm:block sm:px-8 lg:mt-0">
 			<Carousel images={shopData} />
 		</div>
 		<div class="overflow-hidden relative sm:hidden">

@@ -14,7 +14,7 @@
 
 {#each images as { imagePath, artist, type }, index}
 	<div
-		class="item-slide border-6 rounded-lg border-gray-50/70"
+		class="rounded-lg item-slide border-6 border-gray-50/70"
 		class:current={index === currentIndex}
 		class:next={index === nextIndex}
 		class:previous={index === previousIndex}
@@ -28,6 +28,7 @@
 		position: absolute;
 		transform: translateX(200%) scale(0.6);
 		width: 50%;
+		top: 0;
 		opacity: 0;
 		transition: transform 1.5s, opacity 0.3s;
 	}
@@ -40,7 +41,6 @@
 	.current {
 		position: static;
 		transform: translateX(0%) scale(1);
-		height: 100%;
 		opacity: 1;
 	}
 
