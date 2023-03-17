@@ -14,7 +14,7 @@
 		<p>Press the following to view detailed information for each painting.</p>
 	</div>
 	<div
-		class="mt-11 flex overflow-x-scroll md:grid md:grid-cols-3 md:gap-5 md:overflow-auto 2xl:grid-cols-6"
+		class="mt-11 flex overflow-x-scroll md:grid md:grid-cols-3 md:gap-5 md:overflow-auto 2xl:grid-cols-4"
 	>
 		{#each paintings as { name, artist, imagePath, duration, returns }}
 			<a class="mt-4 flex justify-center" href="/">
