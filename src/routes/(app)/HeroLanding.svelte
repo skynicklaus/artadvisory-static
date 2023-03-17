@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div class="flex gap-4">
-			<div class="relative mt-14 hidden w-full overflow-hidden sm:flex sm:px-8 lg:mt-0">
+			<div class="relative mt-14 hidden w-full overflow-hidden sm:px-8 lg:mt-0">
 				<Carousel images={shopData} />
 			</div>
 			<div class="relative overflow-hidden sm:hidden">
