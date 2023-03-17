@@ -50,15 +50,13 @@
 				/>
 			</div>
 		</div>
-		<div class="flex">
-			<div
-				class="relative mt-14 hidden w-full overflow-hidden sm:flex sm:items-start sm:px-8 lg:mt-0"
-			>
-				<Carousel images={shopData} />
-			</div>
-			<div class="relative overflow-hidden sm:hidden">
-				<CarouselSmall images={shopData} />
-			</div>
+		<div
+			class="relative mt-14 hidden w-full overflow-hidden sm:flex sm:items-start sm:px-8 lg:mt-0"
+		>
+			<Carousel images={shopData} />
+		</div>
+		<div class="relative overflow-hidden sm:hidden">
+			<CarouselSmall images={shopData} />
 		</div>
 	</div>
 </div>
