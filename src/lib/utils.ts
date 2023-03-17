@@ -18,3 +18,9 @@ export interface Operation {
   title: string,
   description: string,
 }
+
+export interface ShopItems {
+  imagePath: string,
+  artist: string,
+  type: string,
+}
