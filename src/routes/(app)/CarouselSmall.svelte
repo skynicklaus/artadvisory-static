@@ -17,7 +17,7 @@
 		class:current={index === currentIndex}
 		class:previous={index === previousIndex}
 	>
-		<img class="" src={imagePath} alt={artist + '' + type} />
+		<img class="object-cover" src={imagePath} alt={artist + '' + type} />
 	</div>
 {/each}
 
