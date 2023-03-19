@@ -9,12 +9,6 @@
   }
 }
 
-@media (-webkit-device-pixel-ratio: 1.25) {
-  :root {
-    zoom: 0.8;
-  }
-}
-
 .flex-half {
   flex: 0 0 50%;
 }

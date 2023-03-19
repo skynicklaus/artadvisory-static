@@ -28,6 +28,7 @@
 		width: 50%;
 		opacity: 0;
 		transition: transform 1.5s, opacity 0.5s;
+		-webkit-transition: transform 1.5s, opacity 0.5s;
 	}
 
 	.previous {

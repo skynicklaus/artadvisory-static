@@ -31,6 +31,7 @@
 		top: 0;
 		opacity: 0;
 		transition: transform 1.5s, opacity 0.3s;
+		-webkit-transition: transform 1.5s, opacity 0.3s;
 	}
 
 	.previous {
