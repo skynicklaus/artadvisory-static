@@ -135,7 +135,7 @@ export const shopData: ShopItems[] = [
 		imagePath2: Painting6F,
 		artist: 'Zao Wou-Ki (1921-2013)',
 		year: 1966,
-		type: 'Oil on Canvas'
+		type: 'Mix Media on Rice Paper'
 	},
 	{
 		id: 7,
