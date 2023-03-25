@@ -4,7 +4,7 @@
 
 <div class="container mx-auto">
 	<nav
-		class="sticky top-[72px] z-50 px-2 backdrop-blur-md md:top-[88px] xl:top-[112px] 2xl:top-[120px]"
+		class="sticky top-[72px] z-20 px-2 backdrop-blur-md md:top-[88px] xl:top-[112px] 2xl:top-[120px]"
 	>
 		<ul class="flex gap-x-10 border-b border-gray-50/30 p-4 text-sm text-gray-50 sm:px-2">
 			<li>
