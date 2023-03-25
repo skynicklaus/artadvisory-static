@@ -45,9 +45,11 @@
 						href="/track-records">TRACK RECORD</a
 					>
 					<a
-						class:text-custom-primary-1={$page.url.pathname === '/contact'}
-						class:font-bold={$page.url.pathname === '/contact'}
-						href="/contact">CONTACT US</a
+						class:text-custom-primary-1={$page.url.pathname === '/explore/shop' ||
+							$page.url.pathname === '/explore/news'}
+						class:font-bold={$page.url.pathname === '/explore/shop' ||
+							$page.url.pathname === '/explore/news'}
+						href="/explore/shop">EXPLORE</a
 					>
 				</nav>
 			</div>

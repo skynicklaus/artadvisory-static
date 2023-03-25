@@ -2,16 +2,25 @@
 	import { page } from '$app/stores';
 </script>
 
-<div class="container mx-auto">
+<div class="mx-auto">
 	<nav
-		class="sticky top-[72px] z-20 px-2 backdrop-blur-md md:top-[88px] xl:top-[112px] 2xl:top-[120px]"
+		class="sticky z-20 px-2 top-[72px] backdrop-blur-md md:top-[88px] xl:top-[112px] 2xl:top-[120px]"
 	>
-		<ul class="flex gap-x-10 border-b border-gray-50/30 p-4 text-sm text-gray-50 sm:px-2">
+		<ul
+			class="container flex gap-x-10 p-4 mx-auto text-sm text-gray-50 border-b sm:px-2 border-gray-50/30"
+		>
 			<li>
 				<a
 					class:text-custom-primary-1={$page.url.pathname === '/explore/shop'}
 					class:font-bold={$page.url.pathname === '/explore/shop'}
 					href="/explore/shop">Shop</a
+				>
+			</li>
+			<li>
+				<a
+					class:text-custom-primary-1={$page.url.pathname === '/explore/news'}
+					class:font-bold={$page.url.pathname === '/explore/news'}
+					href="/explore/news">News</a
 				>
 			</li>
 		</ul>

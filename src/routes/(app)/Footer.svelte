@@ -3,14 +3,14 @@
 	import 'iconify-icon';
 </script>
 
-<footer class="bg-gradient-to-br from-bg-primary-2 to-bg-primary-1 pt-28 pb-24">
+<footer class="pt-28 pb-24 bg-gradient-to-br from-bg-primary-2 to-bg-primary-1">
 	<div
-		class="mx-auto flex max-w-screen-2xl flex-wrap sm:px-32 md:flex-nowrap md:px-12 xl:px-20 2xl:px-32"
+		class="flex flex-wrap mx-auto max-w-screen-2xl sm:px-32 md:flex-nowrap md:px-12 xl:px-20 2xl:px-32"
 	>
-		<div class="flex w-full items-center justify-center gap-6 pb-8 md:block">
-			<div class="float-left flex items-center gap-4 md:flex md:flex-col md:items-center">
+		<div class="flex gap-6 justify-center items-center pb-8 w-full md:block">
+			<div class="flex float-left gap-4 items-center md:flex md:flex-col md:items-center">
 				<a class="" href="/">
-					<div class="xl:w-18 w-16">
+					<div class="w-16 xl:w-18">
 						<Logo />
 					</div>
 				</a>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="max-width mb-7 w-1/2 px-8 text-sm text-gray-50 md:w-2/3 md:px-0 xl:text-base">
+		<div class="px-8 mb-7 w-1/2 text-sm text-gray-50 md:px-0 md:w-2/3 xl:text-base max-width">
 			<ul>
 				<li class="pt-1">
 					<a href="/about/about">About</a>
@@ -31,13 +31,19 @@
 					<a href="/track-records">Track Record</a>
 				</li>
 				<li class="pt-4">
-					<a href="/contact">Contact Us</a>
+					<a href="/explore/shop">Shop</a>
+				</li>
+				<li class="pt-4">
+					<a href="/explore/news">News</a>
 				</li>
 			</ul>
 		</div>
-		<div class="max-width mb-7 w-1/2 px-8 text-sm text-gray-50 md:w-2/3 md:px-0 xl:text-base">
+		<div class="px-8 mb-7 w-1/2 text-sm text-gray-50 md:px-0 md:w-2/3 xl:text-base max-width">
 			<ul>
 				<li class="pt-1">
+					<a href="/contact">Contact Us</a>
+				</li>
+				<li class="pt-4">
 					<a href="/about/terms-of-use">Terms Of Use</a>
 				</li>
 				<li class="pt-4">
@@ -51,7 +57,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="w-full flex-grow px-8 text-sm text-gray-50 md:px-0 xl:text-base">
+		<div class="flex-grow px-8 w-full text-sm text-gray-50 md:px-0 xl:text-base">
 			<div>
 				<p>Art Advisory Sdn. Bhd.</p>
 			</div>
@@ -61,10 +67,10 @@
 			<div>
 				<p>support@artadvisory.art</p>
 			</div>
-			<div class="mt-4 py-6 text-sm">
+			<div class="py-6 mt-4 text-sm">
 				<p>FOLLOW US</p>
 			</div>
-			<div class="-mt-3 flex items-center gap-4">
+			<div class="flex gap-4 items-center -mt-3">
 				<a href="https://www.facebook.com/profile.php?id=100089821248930">
 					<iconify-icon icon="carbon:logo-facebook" width="26" />
 				</a>

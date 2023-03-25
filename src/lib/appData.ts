@@ -27,6 +27,10 @@ import Painting7F from '$lib/images/Painting7F.webp';
 import Painting8F from '$lib/images/Painting8F.webp';
 import Painting9F from '$lib/images/Painting9F.webp';
 import Painting10F from '$lib/images/Painting10F.webp';
+import LaMontagne from '$lib/images/LaMontagne.webp';
+import SilkThangka from '$lib/images/SilkThangka.webp';
+import QuietLake from '$lib/images/QuietLake.webp';
+import Untitled from '$lib/images/Untitled.webp';
 
 export const paintingsData: Painting[] = [
 	{
@@ -174,7 +178,8 @@ export const shopData: ShopItems[] = [
 export const newsData: NewsFeed[] = [
 	{
 		id: 1,
-		imagePath: '',
+		imagePath: LaMontagne,
+		alt: 'Paul Cezanne, La Montagne Sainte-Victorie',
 		title: 'Paul G. Allen Collection is the biggest sale in auction history',
 		description:
 			'On 9 November in New York, Visionary: The Paul G. Allen Collection kicked off with Part I, which surpassed the $1 billion mark at the 32nd lot and broke records across categories.',
@@ -185,7 +190,8 @@ export const newsData: NewsFeed[] = [
 	},
 	{
 		id: 2,
-		imagePath: '',
+		imagePath: SilkThangka,
+		alt: 'Qi Baishi, Eagle Standing',
 		title: '11 Most Expensive Chinese Art Auction Results in the Last 10 Years',
 		description:
 			'Over the previous decade, there has been a substantial shift across the globe, with art from other cultures appearing more and more regularly and selling for ever more impressive auction results',
@@ -196,7 +202,8 @@ export const newsData: NewsFeed[] = [
 	},
 	{
 		id: 3,
-		imagePath: '',
+		imagePath: QuietLake,
+		alt: 'Wu Guanzhon, Quiet Lake and Boats',
 		title: 'Highlights from Chinese Paintings',
 		description:
 			'Have a sneak preview on Christie’s Hong Kong 2020 Chinese Paintings autumn auctions on 1st December.',
@@ -207,7 +214,8 @@ export const newsData: NewsFeed[] = [
 	},
 	{
 		id: 4,
-		imagePath: '',
+		imagePath: Untitled,
+		alt: 'Cy Twombly, Untitled',
 		title: 'Leonardo’s Salvator Mundi makes auction history',
 		description:
 			'The rediscovered masterpiece by the Renaissance master sells for an historic $450,312,500.',
