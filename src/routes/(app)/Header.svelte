@@ -5,7 +5,7 @@
 	import Button from '$lib/components/Button.svelte';
 	import RightArrow from '$lib/components/RightArrow.svelte';
 
-	let menuOpen: boolean = false;
+	let menuOpen = false;
 </script>
 
 <svelte:head>
@@ -17,18 +17,18 @@
 		</style>
 	{/if}
 </svelte:head>
-<header class="fixed top-0 z-40 w-full bg-gradient-to-b from-black/40 to-black/5 backdrop-blur-sm">
-	<div class="container mx-auto px-4 pb-4 pt-6 xl:pt-8 2xl:pt-10">
-		<div class="flex items-center justify-between">
+<header class="sticky top-0 z-40 w-full bg-gradient-to-b from-black/40 to-black/5 backdrop-blur-md">
+	<div class="container px-4 pt-6 pb-4 mx-auto xl:pt-8 2xl:pt-10">
+		<div class="flex justify-between items-center">
 			<div>
 				<a href="/">
-					<div class="2xl:w-22 w-8 md:w-12 xl:w-16">
+					<div class="w-8 md:w-12 xl:w-16 2xl:w-22">
 						<Logo />
 					</div>
 				</a>
 			</div>
 			<div class="hidden md:block">
-				<nav class="flex gap-4 text-sm font-medium text-gray-50 lg:ml-44 lg:gap-10 xl:gap-14">
+				<nav class="flex gap-4 text-sm font-medium text-gray-50 lg:gap-10 lg:ml-44 xl:gap-14">
 					<a
 						class:text-custom-primary-1={$page.url.pathname === '/about/how-it-works'}
 						class:font-bold={$page.url.pathname === '/about/how-it-works'}
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<button
-					class="flex h-7 w-7 flex-col justify-center gap-1 md:hidden"
+					class="flex flex-col gap-1 justify-center w-7 h-7 md:hidden"
 					on:click={() => (menuOpen = true)}
 				>
 					<div class="burger-menu burger-top" />
@@ -75,22 +75,22 @@
 
 {#if menuOpen}
 	<div
-		class="fixed top-0 left-0 z-50 h-screen w-screen bg-bg-primary-1"
+		class="fixed top-0 left-0 z-50 w-screen h-screen bg-bg-primary-1"
 		transition:fly={{ x: 200 }}
 	>
-		<div class="flex items-center justify-between bg-bg-primary-1 px-4 pb-4 pt-10 drop-shadow-lg">
-			<div class="flex items-center gap-5">
+		<div class="flex justify-between items-center px-4 pt-10 pb-4 bg-bg-primary-1 drop-shadow-lg">
+			<div class="flex gap-5 items-center">
 				<div class="w-8">
 					<Logo />
 				</div>
 				<h1 class="text-lg font-bold text-gray-50">Artadvisory</h1>
 			</div>
-			<button class="relative h-7 w-7" on:click={() => (menuOpen = false)}>
+			<button class="relative w-7 h-7" on:click={() => (menuOpen = false)}>
 				<div
-					class="burger-menu absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rotate-45"
+					class="absolute top-1/2 left-1/2 w-full rotate-45 -translate-x-1/2 -translate-y-1/2 burger-menu"
 				/>
 				<div
-					class="burger-menu absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 -rotate-45"
+					class="absolute top-1/2 left-1/2 w-full -rotate-45 -translate-x-1/2 -translate-y-1/2 burger-menu"
 				/>
 			</button>
 		</div>
@@ -99,7 +99,7 @@
 				<ul>
 					<li>
 						<a
-							class="flex items-center justify-between border-b-2 border-bg-primary-2/20 py-4 px-4"
+							class="flex justify-between items-center py-4 px-4 border-b-2 border-bg-primary-2/20"
 							href="/about/how-it-works"
 							on:click={() => (menuOpen = false)}
 						>
@@ -111,7 +111,7 @@
 					</li>
 					<li>
 						<a
-							class="flex items-center justify-between border-b-2 border-bg-primary-2/20 py-4 px-4"
+							class="flex justify-between items-center py-4 px-4 border-b-2 border-bg-primary-2/20"
 							href="/about/about"
 							on:click={() => (menuOpen = false)}
 						>
@@ -123,7 +123,7 @@
 					</li>
 					<li>
 						<a
-							class="flex items-center justify-between border-b-2 border-bg-primary-2/20 py-4 px-4"
+							class="flex justify-between items-center py-4 px-4 border-b-2 border-bg-primary-2/20"
 							href="/track-records"
 							on:click={() => (menuOpen = false)}
 						>
@@ -135,7 +135,19 @@
 					</li>
 					<li>
 						<a
-							class="flex items-center justify-between border-b-2 border-bg-primary-2/20 py-4 px-4"
+							class="flex justify-between items-center py-4 px-4 border-b-2 border-bg-primary-2/20"
+							href="/explore/shop"
+							on:click={() => (menuOpen = false)}
+						>
+							<p>Explore</p>
+							<div class="w-3">
+								<RightArrow />
+							</div>
+						</a>
+					</li>
+					<li>
+						<a
+							class="flex justify-between items-center py-4 px-4 border-b-2 border-bg-primary-2/20"
 							href="/contact"
 							on:click={() => (menuOpen = false)}
 						>
@@ -147,10 +159,10 @@
 					</li>
 				</ul>
 			</div>
-			<div class="mt-8 flex justify-center gap-8">
+			<div class="flex gap-8 justify-center mt-8">
 				<div>
 					<a
-						class="font-spartan rounded bg-gradient-to-br from-custom-primary-1 to-custom-primary-2 py-4 px-8 text-center"
+						class="py-4 px-8 text-center bg-gradient-to-br rounded font-spartan from-custom-primary-1 to-custom-primary-2"
 						href="/auth/login"
 						on:click={() => (menuOpen = false)}
 					>
@@ -159,7 +171,7 @@
 				</div>
 				<div>
 					<a
-						class="font-spartan rounded bg-gradient-to-br from-custom-primary-1 to-custom-primary-2 py-4 px-8 text-center"
+						class="py-4 px-8 text-center bg-gradient-to-br rounded font-spartan from-custom-primary-1 to-custom-primary-2"
 						href="/auth/signup"
 						on:click={() => (menuOpen = false)}
 					>
