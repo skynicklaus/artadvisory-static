@@ -6,38 +6,40 @@
 	import CarouselSmall from './CarouselSmall.svelte';
 </script>
 
-<div class="container px-4 pt-40 mx-auto lg:px-12 lg:pt-48 lg:pb-10 xl:pt-52 2xl:pt-64">
+<div class="container px-4 pt-20 mx-auto lg:px-12 lg:pt-24 lg:pb-10 2xl:pt-32">
 	<div class="items-center space-y-10 lg:grid xl:grid-cols-2 grid-template">
-		<div class="space-y-4">
+		<div class="space-y-6">
 			<div
 				class="text-3xl font-bold text-gray-50 sm:mx-auto sm:max-w-sm sm:text-center lg:mx-0 lg:text-left xl:w-3/5 xl:max-w-md"
 			>
 				<h1>Join our revolutionary fine art painting investment platform.</h1>
 			</div>
-			<div class="text-gray-50 sm:mx-auto lg:mx-0">
-				<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start lg:text-base">
-					<div class="w-4 xl:w-7">
-						<Star />
+			<div class="sm:text-center lg:text-left">
+				<div class="inline-block text-gray-50">
+					<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start lg:text-base">
+						<div class="w-4 xl:w-7">
+							<Star />
+						</div>
+						<p>Invest in highly-prized paintings</p>
 					</div>
-					<p>Invest in highly-prized paintings</p>
-				</div>
-				<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start xl:text-base">
-					<div class="w-4 xl:w-7">
-						<Star />
+					<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start xl:text-base">
+						<div class="w-4 xl:w-7">
+							<Star />
+						</div>
+						<p>Attractive historical returns</p>
 					</div>
-					<p>Attractive historical returns</p>
-				</div>
-				<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start xl:text-base">
-					<div class="w-4 xl:w-7">
-						<Star />
+					<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start xl:text-base">
+						<div class="w-4 xl:w-7">
+							<Star />
+						</div>
+						<p>Get monthly benefits upon investing</p>
 					</div>
-					<p>Get monthly benefits upon investing</p>
-				</div>
-				<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start xl:text-base">
-					<div class="w-4 xl:w-7">
-						<Star />
+					<div class="flex gap-2 items-center pb-4 sm:justify-center md:justify-start xl:text-base">
+						<div class="w-4 xl:w-7">
+							<Star />
+						</div>
+						<p>Receive proceeds upon painting sold</p>
 					</div>
-					<p>Receive proceeds upon painting sold</p>
 				</div>
 			</div>
 			<div class="flex mx-auto mb-6 w-full">

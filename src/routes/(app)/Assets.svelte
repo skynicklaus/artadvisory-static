@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { Asset } from '$lib/utils';
 	import AssetsCard from './AssetsCard.svelte';
-	import ArtIcon from '$lib/images/ArtIcon.png';
-	import BursaIcon from '$lib/images/BursaIcon.png';
-	import RealEstateIcon from '$lib/images/RealEstateIcon.png';
-	import GoldIcon from '$lib/images/GoldIcon.png';
+	import ArtIcon from '$lib/images/ArtIcon.webp';
+	import BursaIcon from '$lib/images/BursaIcon.webp';
+	import RealEstateIcon from '$lib/images/RealEstateIcon.webp';
+	import GoldIcon from '$lib/images/GoldIcon.webp';
 
 	let assets: Asset[] = [
 		{

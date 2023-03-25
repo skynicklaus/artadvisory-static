@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { Operation } from '$lib/utils';
 	import OperationCard from './OperationCard.svelte';
-	import ArtistIcon from '$lib/images/ArtistIcon.png';
-	import PaintingIcon from '$lib/images/PaintingIcon.png';
-	import SecurityIcon from '$lib/images/SecurityIcon.png';
-	import MoneyIcon from '$lib/images/MoneyIcon.png';
+	import ArtistIcon from '$lib/images/ArtistIcon.webp';
+	import PaintingIcon from '$lib/images/PaintingIcon.webp';
+	import SecurityIcon from '$lib/images/SecurityIcon.webp';
+	import MoneyIcon from '$lib/images/MoneyIcon.webp';
 
 	let operations: Operation[] = [
 		{

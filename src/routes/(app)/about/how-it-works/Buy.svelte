@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Exhibition2 from '$lib/images/Exhibition2.jpeg';
+	import Exhibition2 from '$lib/images/Exhibition2.webp';
 </script>
 
 <div class="container mx-auto px-4 pt-20 pb-10 sm:pb-32 md:px-12 lg:px-12 lg:pt-28">

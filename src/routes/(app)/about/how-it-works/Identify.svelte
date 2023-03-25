@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Christies from '$lib/images/Christies.png';
+	import Christies from '$lib/images/Christies.webp';
 </script>
 
 <div class="container mx-auto px-4 pt-20 pb-10 md:px-12 lg:px-12 lg:pt-28 lg:pb-10">

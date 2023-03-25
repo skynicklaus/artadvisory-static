@@ -1,7 +1,3 @@
-<script lang="ts">
-	import Star from '$lib/components/Star.svelte';
-</script>
-
 <div class="container mx-auto px-4 pt-8 pb-10 md:px-12 lg:mt-0 lg:px-12 lg:pb-10 xl:pt-20">
 	<div class="flex flex-col gap-6">
 		<div class="text-3xl font-bold text-gray-50 md:text-center">

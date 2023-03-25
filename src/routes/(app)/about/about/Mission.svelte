@@ -1,9 +1,9 @@
 <script lang="ts">
 	import AboutCard from './AboutCard.svelte';
-	import Exhibition1 from '$lib/images/Exhibition1.jpeg';
+	import Exhibition1 from '$lib/images/Exhibition1.webp';
 </script>
 
-<div class="container mx-auto px-4 pt-40 lg:px-12 lg:pt-52 lg:pb-10 xl:pt-52 2xl:pt-56">
+<div class="container mx-auto px-4 pt-20 lg:px-12 lg:pt-28 lg:pb-10 xl:pt-24 2xl:pt-28">
 	<div class="lg:flex lg:items-center lg:gap-8">
 		<div class="flex flex-col gap-4">
 			<div

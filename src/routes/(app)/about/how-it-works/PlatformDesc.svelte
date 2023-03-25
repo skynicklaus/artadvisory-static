@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Button from '$lib/components/Button.svelte';
-	import Exhibition3 from '$lib/images/Exhibition3.png';
+	import Exhibition3 from '$lib/images/Exhibition3.webp';
 </script>
 
-<div class="container mx-auto px-4 pt-40 lg:px-12 lg:pt-52 lg:pb-10 xl:pt-52 2xl:pt-56">
+<div class="container mx-auto px-4 pt-20 lg:px-12 lg:pt-28 lg:pb-10 xl:pt-24 2xl:pt-28">
 	<div class="lg:flex lg:items-center xl:mt-12">
 		<div class="flex-half flex flex-col gap-4 lg:justify-center lg:pr-14">
 			<div
