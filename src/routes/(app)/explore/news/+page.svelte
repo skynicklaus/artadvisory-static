@@ -45,7 +45,7 @@
 		<div class="text-gray-50">
 			<h1 class="text-lg font-semibold">Recent</h1>
 			<ol class="p-5 list-decimal">
-				{#each newsData as { title, link }, index}
+				{#each newsData as { title, link }}
 					<li class="pl-4 my-2 hover:underline">
 						<a href={link}>{title}</a>
 					</li>
@@ -56,7 +56,7 @@
 		<div class="mt-4 text-gray-50">
 			<h1 class="text-lg font-semibold">Trending</h1>
 			<ol class="p-5 list-decimal">
-				{#each newsData as { title, link }, index}
+				{#each newsData as { title, link }}
 					<li class="pl-4 my-2 hover:underline">
 						<a href={link}>{title}</a>
 					</li>

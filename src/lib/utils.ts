@@ -29,7 +29,6 @@ export interface ShopItems {
 }
 
 export interface NewsFeed {
-	id: number;
 	imagePath: string;
 	alt: string;
 	title: string;

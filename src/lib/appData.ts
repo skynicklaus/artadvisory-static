@@ -177,7 +177,6 @@ export const shopData: ShopItems[] = [
 
 export const newsData: NewsFeed[] = [
 	{
-		id: 1,
 		imagePath: LaMontagne,
 		alt: 'Paul Cezanne, La Montagne Sainte-Victorie',
 		title: 'Paul G. Allen Collection is the biggest sale in auction history',
@@ -189,31 +188,28 @@ export const newsData: NewsFeed[] = [
 		link: 'https://www.christies.com/features/paul-g-allen-collection-sale-results-12534-3.aspx?sc_lang=en'
 	},
 	{
-		id: 2,
 		imagePath: SilkThangka,
 		alt: 'Qi Baishi, Eagle Standing',
 		title: '11 Most Expensive Chinese Art Auction Results in the Last 10 Years',
 		description:
 			'Over the previous decade, there has been a substantial shift across the globe, with art from other cultures appearing more and more regularly and selling for ever more impressive auction results',
 		author: 'Mia Forbes',
-		tags: ['The Collector', 'Mia Forbes', 'Chinese Art'],
+		tags: ['Mia Forbes', 'Chinese Art'],
 		date: '2 January 2021',
 		link: 'https://www.thecollector.com/chinese-art-auction-results/'
 	},
 	{
-		id: 3,
 		imagePath: QuietLake,
 		alt: 'Wu Guanzhon, Quiet Lake and Boats',
 		title: 'Highlights from Chinese Paintings',
 		description:
 			'Have a sneak preview on Christie’s Hong Kong 2020 Chinese Paintings autumn auctions on 1st December.',
 		author: 'Christie’s',
-		tags: ['Christie’s'],
+		tags: ['Christie’s', 'Chinese Art'],
 		date: '6 November 2020',
 		link: 'https://www.christies.com/features/First-Look-Chinese-Paintings-Highlight-11179-1.aspx'
 	},
 	{
-		id: 4,
 		imagePath: Untitled,
 		alt: 'Cy Twombly, Untitled',
 		title: 'Leonardo’s Salvator Mundi makes auction history',

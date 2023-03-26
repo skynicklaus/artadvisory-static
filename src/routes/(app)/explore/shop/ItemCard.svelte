@@ -23,7 +23,7 @@
 			<p>#{id}</p>
 		</div>
 		<div class="text-xl font-medium">
-			<h2>
+			<h2 class="block truncate">
 				<a href={null} class="hover:underline hover:cursor-pointer after:absolute after:inset-0">
 					{artist}
 				</a>

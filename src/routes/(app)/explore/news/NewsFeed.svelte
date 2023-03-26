@@ -23,10 +23,10 @@
 	</h2>
 	<div class:mt-6={index != 0}>
 		{#if index == 0}
-			<ul class="flex gap-4 my-8 text-xs">
+			<ul class="flex gap-4 my-6 text-xs">
 				{#each tags as tag}
 					<li>
-						<a class="p-2 text-center rounded-md bg-white/20" href={null}>
+						<a class="block p-2 text-center rounded-md bg-white/20" href={null}>
 							{tag.toUpperCase()}
 						</a>
 					</li>
@@ -40,10 +40,10 @@
 			<p>{date}</p>
 		</div>
 		{#if index != 0}
-			<ul class="flex gap-4 my-8 text-xs">
+			<ul class="flex gap-4 my-6 text-xs">
 				{#each tags as tag}
-					<li>
-						<a class="p-2 text-center rounded-md bg-white/20" href={null}>
+					<li class="truncate">
+						<a class="block p-2 text-center rounded-md bg-white/20" href={null}>
 							{tag.toUpperCase()}
 						</a>
 					</li>
@@ -57,10 +57,10 @@
 		</div>
 	{/if}
 	<a
-		class="py-3 px-6 text-xs font-bold text-gray-900 bg-gradient-to-br rounded-md from-custom-primary-1 to-custom-primary-2"
+		class="inline-block py-3 px-6 text-xs font-bold text-gray-900 bg-gradient-to-br rounded-md from-custom-primary-1 to-custom-primary-2"
 		href={link}>READ MORE</a
 	>
 	{#if index == 0}
-		<hr class="mt-10 mb-8 border-gray-500/80" />
+		<hr class="my-8 border-gray-500/80" />
 	{/if}
 </div>
